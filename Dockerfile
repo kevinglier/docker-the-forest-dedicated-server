@@ -35,6 +35,7 @@ COPY scripts/wrapper   $HOME/wrapper
 
 # Create the default volumes
 VOLUME ["$HOME/saves"]
+VOLUME ["$HOME/config"]
 
 # Expose the default ports
 EXPOSE 8766/udp 8766/tcp 27015/udp 27015/tcp 27016/udp 27016/tcp
